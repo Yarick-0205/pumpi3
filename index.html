@@ -3,13 +3,20 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Potapulcin  player</title>
+<title>Pumpi</title>
 <link rel="stylesheet" href="style.css" />
 </head>
 <body class="body">
 <header class="header">
+    
     <div class="container_header1">
-        <p class="header_text1">Pumpi</p>
+        <div class="container_container1">
+            <img src="Логотип/Логотип3.png" alt="Лого" class="header_img">
+            <p class="header_text1">Pumpi</p>
+            
+        </div>
+        
+        
         <ul class="header_list">
             <li class="header_item"><a href="index.html">Главная</a></li>
             <li class="header_item"><a href="favorites.html">Избранное</a></li>
@@ -71,6 +78,30 @@
                     </form>
                     <audio controls class="au1" id="track-info42" data-id="4">
                         <source src="Музыка/smells-like-teen-spirit.mp3" type="audio/mpeg" />
+                    </audio>
+                    <button onclick="addToFavorites(4)" class="btn2_main">Добавить в избранное</button>
+                </div>
+            </div>
+            <div class="container_au1">
+                <img src="Фото/I_Got_Love.png" alt="au1" class="img_au1" />
+                <div class="au1_1">
+                    <form class="main_au_btn1" action="index_au1.html">
+                        <button class="au1_btn">I_Got_Love - Мияги,Эндшпиль...</button>
+                    </form>
+                    <audio controls class="au1" id="track-info42" data-id="4">
+                        <source src="Музыка/Miyagi_Rem_Digga_-_I_Got_Love_47828425.mp3" type="audio/mpeg" />
+                    </audio>
+                    <button onclick="addToFavorites(4)" class="btn2_main">Добавить в избранное</button>
+                </div>
+            </div>
+            <div class="container_au1">
+                <img src="Фото/Тает_лёд.png" alt="au1" class="img_au1" />
+                <div class="au1_1">
+                    <form class="main_au_btn1" action="index_au1.html">
+                        <button class="au1_btn">Грибы - Тает лёд</button>
+                    </form>
+                    <audio controls class="au1" id="track-info42" data-id="4">
+                        <source src="Музыка/Griby_-_Taet_Ljod_63903270.mp3" type="audio/mpeg" />
                     </audio>
                     <button onclick="addToFavorites(4)" class="btn2_main">Добавить в избранное</button>
                 </div>

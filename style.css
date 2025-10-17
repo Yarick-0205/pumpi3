@@ -15,7 +15,11 @@ body {
   padding: 20px;
   border-radius: 10px;
 }
-
+.header_img{
+  margin-left: -2.5%;
+  width: 12%;
+  margin-bottom: 1%;
+}
 .container_header1 {
   display: flex;
   justify-content: space-between;
